@@ -1,6 +1,6 @@
 import React from "react";
-import Slider from "react-rangeslider";
-import "react-rangeslider/lib/index.css";
+import Slider from "rc-slider";
+import "rc-slider/assets/index.css";
 import { music } from "~/configs";
 
 interface SliderProps {

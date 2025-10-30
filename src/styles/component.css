@@ -83,6 +83,21 @@
   @apply hidden;
 }
 
+/* rc-slider compatibility styles (match appearance of previous rangeslider) */
+.slider .rc-slider {
+  @apply bg-c-300 w-full h-7 shadow-none m-0 rounded-r-full border-t border-r border-b border-transparent;
+}
+.slider .rc-slider .rc-slider-track {
+  @apply bg-c-100 shadow-none rounded-none;
+}
+.slider .rc-slider .rc-slider-handle {
+  @apply border border-c-300 outline-none size-7 text-white bg-white;
+  box-shadow: -3px 0px 8px 0px rgba(17, 17, 17, 0.15);
+}
+.slider .rc-slider .rc-slider-handle::after {
+  @apply hidden;
+}
+
 
 /*
   Credits: W3 Schools: https://www.w3schools.com/howto/howto_css_switch.asp
