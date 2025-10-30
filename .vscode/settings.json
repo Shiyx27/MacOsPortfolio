@@ -1,0 +1,12 @@
+{
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "files.exclude": {
+    "node_modules": true,
+    "dist": true
+  },
+  "search.exclude": {
+    "node_modules": true
+  }
+}

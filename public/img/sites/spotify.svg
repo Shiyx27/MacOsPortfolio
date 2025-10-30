@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Simple Spotify-style icon (stylized) -->
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <rect width="48" height="48" rx="8" fill="#1ED760"/>
+  <g transform="translate(6,10)" fill="none" stroke="#072010" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+    <path d="M3 6.5C12.5 4 26 3 35 8" stroke="#072010" opacity="0.95"/>
+    <path d="M3 11.5C13 9 25 8.2 34 12.5" stroke="#072010" opacity="0.9"/>
+    <path d="M3 16.5C11.5 14.5 23.5 14 32 17" stroke="#072010" opacity="0.85"/>
+  </g>
+</svg>
