@@ -18,9 +18,15 @@ const SliderComponent = ({ icon, value, setValue }: SliderProps) => (
       min={1}
       max={100}
       value={value}
-      tooltip={false}
-      orientation="horizontal"
-      onChange={(v: number) => setValue(v)}
+      onChange={(v: number | number[]) => {
+        const newValue = Array.isArray(v) ? v[0] : v;
+        setValue(newValue);
+      }}
+      styles={{
+        rail: { height: "1.75rem" },
+        track: { height: "1.75rem" },
+        handle: { width: "1.75rem", height: "1.75rem", marginTop: 0 }
+      }}
     />
   </div>
 );
