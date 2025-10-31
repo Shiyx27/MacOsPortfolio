@@ -1,3 +1,4 @@
+# More About Me
 
 ## Patent
 - Patent: “A System For Prosthetic Arm with Non-Invasive Sensory Regeneration” (Published Feb 2025)
