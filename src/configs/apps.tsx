@@ -1,4 +1,4 @@
-import { appBarHeight } from "~/utils";
+import { appBarHeight, getAssetPath } from "~/utils";
 import type { AppsData } from "~/types";
 
 const apps: AppsData[] = [
@@ -6,7 +6,7 @@ const apps: AppsData[] = [
     id: "launchpad",
     title: "Launchpad",
     desktop: false,
-    img: "/img/icons/launchpad.png"
+    img: getAssetPath("/img/icons/launchpad.png")
   },
   {
     id: "bear",
@@ -16,10 +16,10 @@ const apps: AppsData[] = [
     height: 500,
     show: true,
     y: -40,
-    img: "/img/icons/bear.png",
+    img: getAssetPath("/img/icons/bear.png"),
     content: <Bear />
   },
-  
+
   {
     id: "safari",
     title: "Safari",
@@ -28,14 +28,14 @@ const apps: AppsData[] = [
     minWidth: 375,
     minHeight: 200,
     x: -20,
-    img: "/img/icons/safari.png",
+    img: getAssetPath("/img/icons/safari.png"),
     content: <Safari />
   },
   {
     id: "facetime",
     title: "FaceTime",
     desktop: true,
-    img: "/img/icons/facetime.png",
+    img: getAssetPath("/img/icons/facetime.png"),
     width: 500 * 1.7,
     height: 500 + appBarHeight,
     minWidth: 350 * 1.7,
@@ -49,14 +49,14 @@ const apps: AppsData[] = [
     id: "terminal",
     title: "Terminal",
     desktop: true,
-    img: "/img/icons/terminal.png",
+    img: getAssetPath("/img/icons/terminal.png"),
     content: <Terminal />
   },
   {
     id: "github",
     title: "Github",
     desktop: false,
-    img: "/img/icons/github.png",
+    img: getAssetPath("/img/icons/github.png"),
     link: "https://github.com/Shiyx27"
   }
 ];
