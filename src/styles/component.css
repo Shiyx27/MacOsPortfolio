@@ -85,17 +85,33 @@
 
 /* rc-slider compatibility styles (match appearance of previous rangeslider) */
 .slider .rc-slider {
-  @apply bg-c-300 w-full h-7 shadow-none m-0 rounded-r-full border-t border-r border-b border-transparent;
+  @apply bg-c-300 w-full shadow-none m-0 rounded-r-full border-t border-r border-b border-transparent;
+  height: 1.75rem !important;
+  padding: 0 !important;
+}
+.slider .rc-slider .rc-slider-rail {
+  @apply bg-c-300 rounded-r-full;
+  height: 1.75rem !important;
 }
 .slider .rc-slider .rc-slider-track {
   @apply bg-c-100 shadow-none rounded-none;
+  height: 1.75rem !important;
 }
 .slider .rc-slider .rc-slider-handle {
-  @apply border border-c-300 outline-none size-7 text-white bg-white;
+  @apply border border-c-300 outline-none bg-white;
+  width: 1.75rem !important;
+  height: 1.75rem !important;
+  margin-top: 0 !important;
   box-shadow: -3px 0px 8px 0px rgba(17, 17, 17, 0.15);
+  opacity: 1 !important;
 }
 .slider .rc-slider .rc-slider-handle::after {
   @apply hidden;
+}
+.slider .rc-slider .rc-slider-handle:active,
+.slider .rc-slider .rc-slider-handle:focus,
+.slider .rc-slider .rc-slider-handle:hover {
+  box-shadow: -3px 0px 8px 0px rgba(17, 17, 17, 0.25);
 }
 
 
