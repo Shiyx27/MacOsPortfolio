@@ -41,6 +41,12 @@ const websites: WebsitesData = {
         title: "Email",
         img: getAssetPath("/img/sites/gmail.svg"),
         link: "mailto:shiyamaladevirs@gmail.com"
+      },
+      {
+        id: "my-medium",
+        title: "Medium",
+        img: getAssetPath("/img/sites/medium.svg"),
+        link: "https://medium.com/@shiyamaladevi.rs27"
       }
     ]
   },
