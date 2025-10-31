@@ -3,9 +3,6 @@
 
 Powered by [React](https://reactjs.org/) + [Zustand](https://zustand-demo.pmnd.rs/) + [UnoCSS](https://uno.antfu.me/) + [TypeScript](https://www.typescriptlang.org/) + [Vite](https://vitejs.dev/).
 
-![light mode](./public/screenshots/light.png)
-![dark mode](./public/screenshots/dark.png)
-
 
 &nbsp;
 
