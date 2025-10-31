@@ -8,7 +8,7 @@ const websites: WebsitesData = {
       {
         id: "my-blog",
         title: "Website",
-        img: getAssetPath("/img/ui/avatar.jpg"),
+        img: getAssetPath("/img/sites/Me_In_Pixel.png"),
         link: "https://shiyx27.github.io/MyPortfolio/",
         inner: true
       },
