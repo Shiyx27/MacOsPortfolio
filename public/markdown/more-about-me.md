@@ -8,21 +8,21 @@
 
 ## Publications
 
-### 1. Automated Classification of E-Commerce Packaging for Open Box Delivery - (Under Review - IEEE Submission)
+### 1. Automated Classification of E-Commerce Packaging for Open Box Delivery 
 
 - Developed a transfer learning–based image classification pipeline to detect poor-quality packaging images (Blur/Dark/Random, Primary/Secondary Package).
 - Achieved 89% overall accuracy and 96% recall for low-quality images using fine-tuned CNN architectures (ResNet50 + augmentation).
 - Deployed an end-to-end automated workflow integrated with Google Sheets—allowing non-technical operators to run real-time OBD quality checks without coding.
 - Reduced manual inspection overhead by 60%, improving packaging integrity assurance across last-mile delivery systems.
 
-### 2. Swara-Net: A Deep Learning Baseline for Under-Represented Carnatic Ragas - (Under Review – TechRxiv / IEEE Submission)
+### 2. Swara-Net: A Deep Learning Baseline for Under-Represented Carnatic Ragas - (Selected for Dec IEE INDICON'2025)
 
 - Curated a diverse dataset of 638 audio snippets across five ragas (Shankarabharanam, Revathi, Abheri, Brindavanasaranga, Mayamalavagowla).
 - Designed Swara-Net, a 3-layer Deep Neural Network achieving 99.0% classification accuracy, outperforming SVM by 42%.
 - Conducted detailed musicological error analysis of the model’s misclassification patterns and published the open-source dataset for reproducibility.
 - Pioneered the first computational baseline for these five ragas, contributing to computational ethnomusicology research in Indian classical music.
 
-### 3. Security Auditing & Malicious Client Blocking in Federated EEG Seizure Detection (Under Review – IEEE Access)
+### 3. Security Auditing & Malicious Client Blocking in Federated EEG Seizure Detection (Under Review – As of Oct 2025)
 
 - Engineered a three-tier attestation-based federated learning framework integrating HMAC-SHA256 for secure client verification.
 
